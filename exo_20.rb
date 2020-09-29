@@ -5,9 +5,9 @@ pyramid_number = 1
 
 if user_number <= 25   
     for i in 1..user_number do
-    puts "# " * pyramid_number
+    puts ("# " * pyramid_number)
     pyramid_number += 1
     end
 else
-    puts "Arf, trop grand..."
+    puts "On a dit entre 0 et 25..."
 end
